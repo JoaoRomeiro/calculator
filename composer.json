@@ -1,0 +1,19 @@
+{
+    "name": "lp/calculator",
+    "description": "This is for demo purpose",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lp\\Calculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joao Romeiro",
+            "email": "j.romeiro@live.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
