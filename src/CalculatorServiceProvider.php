@@ -10,6 +10,7 @@ class CalculatorServiceProvider extends ServiceProvider
     {
         $this->app->make('jromeiro\Calculator\CalculatorController');
         $this->loadViewsFrom(__DIR__ . '/views', 'calculator');
+        $this->loadMigrationsFrom(__DIR__ . '/migrations');
     }
 
     public function boot()
