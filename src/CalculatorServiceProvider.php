@@ -1,6 +1,6 @@
 <?php
 
-namespace LP\Calculator;
+namespace jromeiro\Calculator;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,7 +8,7 @@ class CalculatorServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->make('LP\Calculator\CalculatorController');
+        $this->app->make('jromeiro\Calculator\CalculatorController');
         $this->loadViewsFrom(__DIR__ . '/views', 'calculator');
     }
 

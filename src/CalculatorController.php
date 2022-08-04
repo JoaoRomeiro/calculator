@@ -1,6 +1,6 @@
 <?php
 
-namespace LP\Calculator;
+namespace jromeiro\Calculator;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
