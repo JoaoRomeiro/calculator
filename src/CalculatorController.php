@@ -9,6 +9,7 @@ class CalculatorController extends Controller
 {
     public function add($a, $b)
     {
+        //
         $result = $a + $b;
         return view('calculator::add', compact('result'));
     }
